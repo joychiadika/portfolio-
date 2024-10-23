@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background: #1f242d;
+    color: #fff;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 25px 9%;
+    z-index: 100;
+}
+.navbar ul{
+    display: flex;
+    gap: 30px;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 700;
+}
+li{
+   list-style: none;
+}
+a:hover{
+    color: #5cf1b6;
+    transition: .6s;
+}
+.logo{
+    font-size: 25px;
+    font-weight: 700;
+}
+.hero-section{
+height: 60vh;
+padding: 0 85px;
+margin-top: 250px;
+}
+.content{
+    width: 50%;
+}
+.content-text h1{
+    margin-bottom: 10px;
+    font-size: 32px;
+}
+.content-text h3{
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+.content-text p{
+    margin-bottom: 25px;
+}
+.image-box{
+    height: 100px;
+    width: 100px;
+    background-color: #5cf1b6;
+}
